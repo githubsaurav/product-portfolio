@@ -25,4 +25,4 @@ for (const [i,p] of projects.entries()) {
 }
 await writeFile(path.join(dist,'404.html'),`${head({title:'Page not found',summary:'Find your way back to Saurav’s product portfolio.',image:'social.jpg'})}<body>${nav}<main id="main" class="not-found wrap"><p class="eyebrow">404 / A SMALL DETOUR</p><h1>This idea isn’t<br><span class="accent">here yet.</span></h1><p>Let’s get you back to the work.</p><a class="button button-dark" href="/">Back to the portfolio ↗</a></main>${footer}</body></html>`);
 await writeFile(path.join(dist,'robots.txt'),'User-agent: *\nAllow: /\n');
-console.log('Built portfolio + 5 project stories + custom 404 in dist/');
+console.log(`Built portfolio + ${projects.length} project stories + custom 404 in dist/`);

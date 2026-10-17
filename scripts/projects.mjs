@@ -15,8 +15,7 @@ export const projects = [
     ],
     try: 'Start with “Offer clarity.” Follow the guided investigation, review the proposed intervention, approve the simulated plan, and inspect the experiment results. Then compare that flow with payment recovery or profit diagnosis.',
     next: 'A useful next test would ask merchants to explain the recommended action and its risks in their own words. I would examine whether the evidence and approval screen improve decision confidence, and where the workflow creates unnecessary effort.',
-    limitation: 'Independent concept, not an official Razorpay product. Merchant data, agent activity, execution, and measured results are simulated. The prototype sends no messages and changes no campaigns.',
-    related: 'Explore the research behind this direction', relatedUrl: 'https://learning-product-management.vercel.app'
+    limitation: 'Independent concept, not an official Razorpay product. Merchant data, agent activity, execution, and measured results are simulated. The prototype sends no messages and changes no campaigns.'
   },
   {
     slug: 'moneycanvas', title: 'MoneyCanvas', category: 'consumer', number: '02', image: 'moneycanvas.jpg', color: '#e3e8dc',
@@ -71,24 +70,5 @@ export const projects = [
     try: 'Open the prototype dashboard, inspect a high-risk partner, and follow the knowledge graph to related brands. Change the persona to see how the same signals appear in different decision contexts.',
     next: 'I would validate signal quality and escalation usefulness with the teams responsible for partner decisions. Key questions include who can contest a signal, how long it remains relevant, and how much warning volume a team can usefully absorb.',
     limitation: 'Competition concept using mocked partner, brand, risk, and agent data. It is not a deployed HUL system, and its sample metrics are not production outcomes or verified company-wide measurements.'
-  },
-  {
-    slug: 'merchant-research', title: 'A merchant’s working life.', category: 'research', number: '05', image: 'research.jpg', color: '#e2e6d8',
-    tags: ['Discovery', 'Opportunity mapping'], label: 'DESK RESEARCH / OPPORTUNITY ATLAS',
-    summary: '208 pain hypotheses. 10 merchant jobs. A structured way to decide what deserves a closer look.',
-    lead: 'Before choosing an AI feature, map the work a merchant is actually trying to get done.',
-    url: 'https://learning-product-management.vercel.app', repo: 'learning-product-management', scope: 'Desk research & interactive research atlas', context: 'Merchant journeys and fintech opportunities',
-    problem: 'Starting with a provider feature list can hide the merchant’s underlying job. Growth, revenue recovery, and operating needs overlap, while several apparently different pain points may share one root problem.',
-    bet: 'Map the merchant journey first. Connect pain hypotheses to fintech touchpoints, documented provider coverage, potential solution directions, and an explicit prioritization rationale.',
-    decisions: [
-      'Structure 208 hypotheses across 10 jobs and 52 subtrees to keep the full workflow visible.',
-      'Separate growth, revenue recovery, and other priorities while retaining links between related pains.',
-      'Make source references and scoring assumptions accessible, so a ranking is open to challenge.',
-      'Distinguish rules-based opportunities from AI enhancements and cases where access must be validated first.'
-    ],
-    try: 'Start with Growth priorities. Filter by merchant segment or solution approach, then open a pain point’s rationale and evidence. Compare the ranked view with the complete journey tree.',
-    next: 'The atlas is a starting point for discovery. The next step would be merchant interviews and workflow observation to check the highest-priority hypotheses, data access, and willingness to change an existing process.',
-    limitation: 'Desk research, not merchant interview evidence. Pain statements and priority scores are hypotheses and analyst judgments, not measured market size, verified product gaps, or guaranteed returns. The live artifact documents its limitations.',
-    related: 'See the Campaign Outcome Studio concept', relatedUrl: '/work/campaign-outcome-studio.html'
   }
 ];

@@ -16,7 +16,7 @@ Checked on 17 October 2026.
 
 Fonts and images are local. Native links, project stories, contact links, and disclosure controls remain available without JavaScript. The gallery filtering and email-copy enhancement require JavaScript. Reduced-motion preferences disable the decorative animation.
 
-Production URL: https://product-portfolio-brown-one.vercel.app. The original deployment was verified on Vercel; subsequent pushes to main redeploy through the Git integration.
+Production URL: https://saurav-pampattiwar.vercel.app. The original deployment was verified on Vercel; subsequent pushes to main redeploy through the Git integration.
 
 ## Visual redesign
 
@@ -26,3 +26,9 @@ Production URL: https://product-portfolio-brown-one.vercel.app. The original dep
 - Checked desktop at 1440px and mobile at 390px and 320px with no horizontal overflow.
 - Checked the product spotlight updates its title and case-study destination, category filters, mobile menu, and case-study navigation.
 - Refreshed the favicon and social preview to match the new design.
+
+## Portfolio selection and address
+
+- Removed the merchant research project, its gallery filter, screenshot, story page, and related link. Four prototype projects remain.
+- Rebuilt and verified all six generated pages for local links, assets, headings, metadata, and external-link safety.
+- Set `saurav-pampattiwar.vercel.app` as the production domain; Vercel reports valid configuration. The previous address redirects to it.
