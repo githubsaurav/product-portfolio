@@ -1,0 +1,14 @@
+{
+  "name": "saurav-product-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Saurav Pampattiwar — product thinking, AI experiences, and things built.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/build.mjs && node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "check": "node --check site/app.js && node --check scripts/build.mjs && node --check scripts/serve.mjs && node scripts/check.mjs"
+  },
+  "engines": { "node": ">=20" }
+}
