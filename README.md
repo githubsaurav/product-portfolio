@@ -1,6 +1,8 @@
 # Saurav Pampattiwar — Product Portfolio
 
-A personal product portfolio with an editorial ivory-and-orange design, real prototype screenshots, five project stories, professional experience, and contact links.
+A personal product portfolio with a white, ink, and cobalt design, readable Manrope and DM Sans typography, interactive product spotlight, five project stories, and professional experience.
+
+**Live:** https://product-portfolio-brown-one.vercel.app
 
 ![Portfolio preview](site/assets/social.jpg)
 
@@ -49,6 +51,6 @@ The featured projects are independent concepts or research artifacts. Their page
 
 Screenshot source: the owner’s public Vercel projects, reviewed 17 October 2026. The project named `learning-product-management` currently hosts a merchant research atlas, which is reflected in the portfolio.
 
-Design references reviewed: [product portfolio examples](https://www.sitebuilderreport.com/inspiration/product-manager-portfolios), [Linus Lee](https://thesephist.com/), and [Lauren M Khoo](https://laurenmkhoo.com/). The layout, illustration, typography treatment, and code here are original; reference-site assets were not copied.
+Design references reviewed: [product portfolio examples](https://www.sitebuilderreport.com/inspiration/product-manager-portfolios), [Linus Lee](https://thesephist.com/), and [Lauren M Khoo](https://laurenmkhoo.com/). The layout, product spotlight, typography treatment, and code here are original; reference-site assets were not copied.
 
-DM Sans and Instrument Serif are distributed under the SIL Open Font License; licenses are included alongside their font files. Prototype brand references do not imply affiliation or endorsement. No analytics, forms backend, or live AI integration is included.
+DM Sans and Manrope are distributed under the SIL Open Font License; licenses are included alongside their font files. Prototype brand references do not imply affiliation or endorsement. No analytics, forms backend, or live AI integration is included.

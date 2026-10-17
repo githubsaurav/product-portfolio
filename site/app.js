@@ -51,3 +51,21 @@ clipboardButton?.addEventListener('click', async () => {
   }
 });
 document.querySelectorAll('[data-year]').forEach(el => el.textContent = String(new Date().getFullYear()));
+
+const spotlights = {
+  moneycanvas: {title:'MoneyCanvas', image:'moneycanvas.jpg', category:'FINTECH / GENERATIVE UI CONCEPT', path:'moneycanvas', alt:'MoneyCanvas financial decision workspace'},
+  myra: {title:'MYRA Travel Autopilot', image:'myra.jpg', category:'TRAVEL / CONVERSATIONAL EXPERIENCE', path:'myra', alt:'MYRA travel companion prototype'},
+  campaign: {title:'Campaign Outcome Studio', image:'campaign.jpg', category:'MERCHANT FINTECH / AGENT EXPERIENCE', path:'campaign-outcome-studio', alt:'Campaign Outcome Studio merchant workspace'}
+};
+document.querySelectorAll('[data-spotlight]').forEach(button => button.addEventListener('click', () => {
+  const project = spotlights[button.dataset.spotlight];
+  document.querySelector('#spotlight-title').textContent = project.title;
+  document.querySelector('#spotlight-category').textContent = project.category;
+  const img = document.querySelector('#spotlight-image');
+  img.src = `/assets/${project.image}`;
+  img.alt = project.alt;
+  const link = document.querySelector('#spotlight-link');
+  link.href = `/work/${project.path}.html`;
+  link.setAttribute('aria-label', `Explore ${project.title}`);
+  document.querySelectorAll('[data-spotlight]').forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+}));
